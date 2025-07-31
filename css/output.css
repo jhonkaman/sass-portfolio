@@ -1,0 +1,26 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+}
+
+.button-outline, .button {
+  border: solid 1px black;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.button {
+  background-color: black;
+  color: white;
+}
+
+.button-outline {
+  color: black;
+}
+
+/*# sourceMappingURL=output.css.map */

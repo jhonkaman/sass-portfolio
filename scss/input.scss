@@ -1,0 +1,26 @@
+// input.scss
+
+@use "reset.scss";
+
+$main-color: red;
+
+h1 {
+  color: $main-color;
+}
+
+%button {
+  border: solid 1px black;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.button {
+  @extend %button;
+  background-color: black;
+  color: white;
+}
+
+.button-outline {
+  @extend %button;
+  color: black;
+}
