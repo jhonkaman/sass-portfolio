@@ -9,9 +9,14 @@ h1 {
   color: $main-color;
 }
 
+a {
+  color: $main-color;
+}
+
 // EXTENDS
 %button {
   border: solid 1px black;
+  border-radius: 4px;
   padding: 8px;
   text-decoration: none;
 }
