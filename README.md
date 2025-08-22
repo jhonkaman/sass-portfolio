@@ -23,5 +23,5 @@ npm init -y
 ```
 
 ```
-npm install sass
+npm i sass --save-dev
 ```
